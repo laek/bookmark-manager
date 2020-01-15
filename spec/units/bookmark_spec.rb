@@ -2,7 +2,7 @@ require 'bookmark'
 
 describe Bookmark do
   describe '.all' do
-    it 'returns all bookmarks' do
+    it 'returns a list of bookmarks' do
       bookmarks = Bookmark.all
 
       expect(bookmarks).to include("http://www.makersacademy.com")
